@@ -20,7 +20,7 @@ class APICaller {
     static let shared = APICaller()
     
     func getTrendingMovies(completion: @escaping (Result<[Title], Error>) -> Void) {
-        guard let url = URL(string: "\(Constants.baseURL)/3/trending/movies/day?api_key=\(Constants.API_KEY)") else { return }
+        guard let url = URL(string: "\(Constants.baseURL)/3/trending/all/day?api_key=\(Constants.API_KEY)") else { return }
         
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, res, error in
             guard let data = data, error == nil else { return }
@@ -29,7 +29,7 @@ class APICaller {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
             } catch {
-                completion(.failure(error))
+                completion(.failure(APIError.failedToGetData))
             }
         }
         task.resume() 
@@ -44,9 +44,9 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results )
+                completion(.success(results.results))
             } catch {
-                completion(.failure(error))
+                completion(.failure(APIError.failedToGetData))
             }
         }
         task.resume()
@@ -62,9 +62,9 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results)
+                completion(.success(results.results))
             } catch {
-                completion(.failure(error))
+                completion(.failure(APIError.failedToGetData))
             }
         }
         task.resume()
@@ -80,9 +80,9 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results)
+                completion(.success(results.results))
             } catch {
-                completion(.failure(error))
+                completion(.failure(APIError.failedToGetData))
             }
         }
         task.resume()
@@ -98,9 +98,9 @@ class APICaller {
             
             do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                print(results)
+                completion(.success(results.results))
             } catch {
-                completion(.failure(error))
+                completion(.failure(APIError.failedToGetData))
             }
         }
         task.resume()
