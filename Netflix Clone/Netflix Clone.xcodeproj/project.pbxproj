@@ -11,6 +11,9 @@
 		15009D532904FB8700EC6192 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 15009D522904FB8700EC6192 /* SDWebImage */; };
 		15009D552904FB8700EC6192 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 15009D542904FB8700EC6192 /* SDWebImageMapKit */; };
 		1505414E290636CB00F516CB /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505414D290636CB00F516CB /* SearchResultsViewController.swift */; };
+		150541522906C92600F516CB /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150541512906C92600F516CB /* YoutubeSearchResponse.swift */; };
+		150541542906CF2300F516CB /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150541532906CF2300F516CB /* TitlePreviewViewController.swift */; };
+		150541562906D24D00F516CB /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150541552906D24D00F516CB /* TitlePreviewViewModel.swift */; };
 		15108CF1290544FD00133817 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15108CF0290544FD00133817 /* TitleTableViewCell.swift */; };
 		1532469E286A0DB8008DB47C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532469D286A0DB8008DB47C /* APICaller.swift */; };
 		153246A0286A1533008DB47C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532469F286A1533008DB47C /* Title.swift */; };
@@ -32,6 +35,9 @@
 /* Begin PBXFileReference section */
 		15009D4F2904F98400EC6192 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		1505414D290636CB00F516CB /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		150541512906C92600F516CB /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		150541532906CF2300F516CB /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		150541552906D24D00F516CB /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		15108CF0290544FD00133817 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		1532469D286A0DB8008DB47C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		1532469F286A1533008DB47C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
@@ -69,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				15605569290581D500F0345F /* TitleViewModel.swift */,
+				150541552906D24D00F516CB /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -88,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				1505414D290636CB00F516CB /* SearchResultsViewController.swift */,
+				150541532906CF2300F516CB /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -105,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				1532469F286A1533008DB47C /* Title.swift */,
+				150541512906C92600F516CB /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 				15AF169828659AFB005E70B2 /* AppDelegate.swift in Sources */,
 				1505414E290636CB00F516CB /* SearchResultsViewController.swift in Sources */,
 				15483DFB29002BA000D76C69 /* Extensions.swift in Sources */,
+				150541522906C92600F516CB /* YoutubeSearchResponse.swift in Sources */,
 				15AF169A28659AFB005E70B2 /* SceneDelegate.swift in Sources */,
+				150541562906D24D00F516CB /* TitlePreviewViewModel.swift in Sources */,
 				15A5CFB12867A9F700314567 /* UpcomingViewController.swift in Sources */,
+				150541542906CF2300F516CB /* TitlePreviewViewController.swift in Sources */,
 				153246A0286A1533008DB47C /* Title.swift in Sources */,
 				15A5CFAF2867A9E100314567 /* HomeViewController.swift in Sources */,
 				1560556A290581D500F0345F /* TitleViewModel.swift in Sources */,
