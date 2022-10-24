@@ -10,9 +10,11 @@
 		15009D502904F98400EC6192 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15009D4F2904F98400EC6192 /* TitleCollectionViewCell.swift */; };
 		15009D532904FB8700EC6192 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 15009D522904FB8700EC6192 /* SDWebImage */; };
 		15009D552904FB8700EC6192 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 15009D542904FB8700EC6192 /* SDWebImageMapKit */; };
+		15108CF1290544FD00133817 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15108CF0290544FD00133817 /* TitleTableViewCell.swift */; };
 		1532469E286A0DB8008DB47C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532469D286A0DB8008DB47C /* APICaller.swift */; };
 		153246A0286A1533008DB47C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532469F286A1533008DB47C /* Title.swift */; };
 		15483DFB29002BA000D76C69 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15483DFA29002BA000D76C69 /* Extensions.swift */; };
+		1560556A290581D500F0345F /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15605569290581D500F0345F /* TitleViewModel.swift */; };
 		1588A79428684C9B000381BD /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588A79328684C9B000381BD /* HeroHeaderUIView.swift */; };
 		15A5CFAF2867A9E100314567 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A5CFAE2867A9E000314567 /* HomeViewController.swift */; };
 		15A5CFB12867A9F700314567 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A5CFB02867A9F700314567 /* UpcomingViewController.swift */; };
@@ -28,9 +30,11 @@
 
 /* Begin PBXFileReference section */
 		15009D4F2904F98400EC6192 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		15108CF0290544FD00133817 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		1532469D286A0DB8008DB47C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		1532469F286A1533008DB47C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		15483DFA29002BA000D76C69 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		15605569290581D500F0345F /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		1588A79328684C9B000381BD /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		15A5CFAE2867A9E000314567 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		15A5CFB02867A9F700314567 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 		15009D562904FD5600EC6192 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				15605569290581D500F0345F /* TitleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 				15A5CFBB2867B2F100314567 /* CollectionViewTableViewCell.swift */,
 				1588A79328684C9B000381BD /* HeroHeaderUIView.swift */,
 				15009D4F2904F98400EC6192 /* TitleCollectionViewCell.swift */,
+				15108CF0290544FD00133817 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15108CF1290544FD00133817 /* TitleTableViewCell.swift in Sources */,
 				15A5CFB32867AA0800314567 /* SearchViewController.swift in Sources */,
 				15009D502904F98400EC6192 /* TitleCollectionViewCell.swift in Sources */,
 				15AF169C28659AFB005E70B2 /* MainTabBarViewController.swift in Sources */,
@@ -236,6 +243,7 @@
 				15A5CFB12867A9F700314567 /* UpcomingViewController.swift in Sources */,
 				153246A0286A1533008DB47C /* Title.swift in Sources */,
 				15A5CFAF2867A9E100314567 /* HomeViewController.swift in Sources */,
+				1560556A290581D500F0345F /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
