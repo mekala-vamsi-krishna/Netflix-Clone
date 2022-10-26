@@ -55,7 +55,16 @@ class CollectionViewTableViewCell: UITableViewCell {
     }
     
     private func downloadTitleAt(indexPath: IndexPath) {
-        print("Downloading..\(titles[indexPath.row].original_title)")
+        
+        DataPersistanceManager.shared.downloadTitle(with: titles[indexPath.row]) { result in
+            switch result {
+            case .success():
+                NotificationCenter.default.post(name: NSNotification.Name("downloaded"), object: nil)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
     }
 }
 
