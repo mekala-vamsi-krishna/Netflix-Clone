@@ -57,9 +57,17 @@ class HomeViewController: UIViewController {
     }
     
     private func configureNavbar() {
-        var image = UIImage(named: "netflixLogo2")
-        image = image?.withRenderingMode(.alwaysOriginal)
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
+        
+        let logo = UIButton(type: .custom)
+        logo.frame = CGRect(x: 0.0, y: 0.0, width: 20, height: 20)
+        logo.setImage(UIImage(named:"VRLogo")?.withRenderingMode(.automatic), for: .normal)
+
+        let menuBarItem = UIBarButtonItem(customView: logo)
+        let currWidth = menuBarItem.customView?.widthAnchor.constraint(equalToConstant: 50)
+        currWidth?.isActive = true
+        let currHeight = menuBarItem.customView?.heightAnchor.constraint(equalToConstant: 50)
+        currHeight?.isActive = true
+        self.navigationItem.leftBarButtonItem = menuBarItem
         
         navigationItem.rightBarButtonItems = [
             UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),

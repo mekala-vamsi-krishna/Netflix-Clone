@@ -51,7 +51,7 @@
 		15A5CFB22867AA0800314567 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		15A5CFB42867AA6500314567 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		15A5CFBB2867B2F100314567 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
-		15AF169428659AFA005E70B2 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AF169428659AFA005E70B2 /* VR Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VR Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AF169728659AFB005E70B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15AF169928659AFB005E70B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		15AF169B28659AFB005E70B2 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		15AF169528659AFA005E70B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15AF169428659AFA005E70B2 /* Netflix Clone.app */,
+				15AF169428659AFA005E70B2 /* VR Movies.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15AF169328659AFA005E70B2 /* Netflix Clone */ = {
+		15AF169328659AFA005E70B2 /* VR Movies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15AF16A828659B01005E70B2 /* Build configuration list for PBXNativeTarget "Netflix Clone" */;
+			buildConfigurationList = 15AF16A828659B01005E70B2 /* Build configuration list for PBXNativeTarget "VR Movies" */;
 			buildPhases = (
 				15AF169028659AFA005E70B2 /* Sources */,
 				15AF169128659AFA005E70B2 /* Frameworks */,
@@ -201,13 +201,13 @@
 			);
 			dependencies = (
 			);
-			name = "Netflix Clone";
+			name = "VR Movies";
 			packageProductDependencies = (
 				15009D522904FB8700EC6192 /* SDWebImage */,
 				15009D542904FB8700EC6192 /* SDWebImageMapKit */,
 			);
 			productName = "Netflix Clone";
-			productReference = 15AF169428659AFA005E70B2 /* Netflix Clone.app */;
+			productReference = 15AF169428659AFA005E70B2 /* VR Movies.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15AF168F28659AFA005E70B2 /* Build configuration list for PBXProject "Netflix Clone" */;
+			buildConfigurationList = 15AF168F28659AFA005E70B2 /* Build configuration list for PBXProject "VR Movies" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,7 +241,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15AF169328659AFA005E70B2 /* Netflix Clone */,
+				15AF169328659AFA005E70B2 /* VR Movies */,
 			);
 		};
 /* End PBXProject section */
@@ -472,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15AF168F28659AFA005E70B2 /* Build configuration list for PBXProject "Netflix Clone" */ = {
+		15AF168F28659AFA005E70B2 /* Build configuration list for PBXProject "VR Movies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15AF16A628659B01005E70B2 /* Debug */,
@@ -481,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15AF16A828659B01005E70B2 /* Build configuration list for PBXNativeTarget "Netflix Clone" */ = {
+		15AF16A828659B01005E70B2 /* Build configuration list for PBXNativeTarget "VR Movies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15AF16A928659B01005E70B2 /* Debug */,
